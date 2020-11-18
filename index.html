@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Second assignment on bootstrap">
+    <meta name="keywords" content="bootstrap, bootstrap template, template, bootstrap layout, web layout, animated website, animation">
+    <link rel="icon" href="img/logo/sitelogo.png">
+
+    <title>Bootstrap Assignment Two | Second project</title>
+
+    <!-- local css files add -->
+    <link rel="stylesheet" href="extra/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="extra/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="extra/aos/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body class="user-select-none">
+
+    <!-- ###################################### -->
+    <!-- topbar section start -->
+        <section class="topbar bg-success py-2 d-none d-md-block" id="topbar">
+            <div class="container-lg px-4 d-flex justify-content-between">
+                <div class="top-contact pt-1">
+                    <span class="text-white font-weight-bold">Eamil: </span><a href="mailto:kmdashik635@gmail.com" class="list-unstyled text-white samll">example000@sample.com</a>
+                    <span class="text-white font-weight-bold ml-2">Phone: </span><a href="tel:+8801714911463" class="list-unstyled text-white samll">+880 1x xxxx xxxx</a>
+                </div>
+                <div class="top-icon">
+                    <a href="#"><i class="bx bxl-twitter bx-border text-white p-2"></i></a>
+                    <a href="#"><i class="bx bxl-facebook bx-border ml-2 text-white p-2"></i></a>
+                </div>
+            </div>
+        </section>
+    <!-- topbar section end -->
+    
+    <!-- ###################################### -->
+    <!-- navigation section start -->
+        <section class="navigation bg-light shadow sticky-top" id="navigation">
+            <div class="container-lg">
+                
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                    <img src="img/logo/ithjoybd.png" alt="" class="w-auto">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto pr-4">
+                        <li class="nav-item active">
+                        <a class="nav-link px-4" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link px-4" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link px-4" href="#">Causes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link px-4" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link px-4" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    <!-- navigation section end -->
+
+
+    <!-- ###################################### -->
+        <!-- slider section start -->
+            <section class="slider-section" id="section">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active h-100">
+                        <img src="img/slider/slider-4.jpg" class="d-block w-100 h-100 text-left" alt="...">
+                        <div class="slider-overlay position-absolute d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+                            <div>
+                            <h2 class="text-white" data-aos="fade-up" data-aos-delay="80">No One Has Become<br>Poor From Giving</h2>
+                            </div>
+                            <div>
+                                <h2><a href="#" class="btn btn-outline-light font-weight-bold mt-4 py-2 px-5" data-aos="fade-up" data-aos-delay="100">JOIN A COMPAIGN</a></h2>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider/slide-2.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="slider-overlay position-absolute d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+                            <div>
+                            <h2 class="text-white" data-aos="fade-up" data-aos-delay="80">Stand Beside The<br/>Poor From Giving</h2>
+                            </div>
+                            <div>
+                                <h2><a href="#" class="btn btn-outline-light font-weight-bold mt-4 py-2 px-5" data-aos="fade-up" data-aos-delay="100">JOIN A COMPAIGN</a></h2>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider/slide-3.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="slider-overlay position-absolute d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+                            <div>
+                            <h2 class="text-white" data-aos="fade-up" data-aos-delay="80">No One Has Become<br>Poor From Giving</h2>
+                            </div>
+                            <div>
+                                <h2><a href="#" class="btn btn-outline-light font-weight-bold mt-4 py-2 px-5" data-aos="fade-up" data-aos-delay="100">JOIN A COMPAIGN</a></h2>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider/slider-4.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="slider-overlay position-absolute d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+                            <div>
+                            <h2 class="text-white" data-aos="fade-up" data-aos-delay="80">Please Help Them<br/>Poor From Giving</h2>
+                            </div>
+                            <div>
+                                <h2><a href="#" class="btn btn-outline-light font-weight-bold mt-4 py-2 px-5" data-aos="fade-up" data-aos-delay="100">JOIN A COMPAIGN</a></h2>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                      
+            </section>
+
+        <!-- slider section end -->
+
+
+    <!-- ###################################### -->
+    <!-- about us section start -->
+    <section class="about-us py-5 bg-light" id="about-us">
+        <div class="container">
+            <div class="section-title  m-auto text-center" data-aos="zoom-in">
+                <h2 class="h1 font-weight-bold">About Us</h2>
+                <p>Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero.</p>
+            </div>
+            <div class="row pt-4">
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="box bg-white py-5 text-center border-secondary border">
+                        <h2 class="">Become Volunteer</h2>
+                        <p class="px-1 px-lg-5 mt-3">Volunteer helping to improve their communities</p>
+                        <a href="#" class="btn btn-outline-dark px-4 mt-4 rounded-0 text-uppercase">start Volunteering</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
+                    <div class="box bg-white py-5 text-center border-secondary border">
+                        <h2 class="">Who We are?</h2>
+                        <p class="px-1 px-lg-5 mt-3">Help people served their lives for hunger affectually</p>
+                        <a href="#" class="btn btn-outline-dark px-4 mt-4 rounded-0 text-uppercase">about our impact</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box bg-white py-5 text-center border-secondary border">
+                        <h2 class="">Where Are We?</h2>
+                        <p class="px-1 px-lg-5 mt-3">Local United Ways in 40 countries and territories</p>
+                        <a href="#" class="btn btn-outline-dark px-4 mt-4 rounded-0 text-uppercase">find our charity</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section end -->
+
+
+    <!-- ###################################### -->
+    <!-- causes section start -->
+        <section class="causes py-5" id="causes">
+            <div class="container">
+                <div class="section-title  m-auto text-center" data-aos="fade-up">
+                    <h2 class="h1 font-weight-bold">Charity Recent Causes</h2>
+                    <p>Vestibulum pulvinar tincidunt placerat. Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero.</p>
+                </div>
+
+                <div class="row pt-4">
+                    <!-- ******************** causes one ******************** -->
+                    <div class="col-lg-4" data-aos="zoom-in">
+                        <div class="card">
+                            <div class="position-relative card-img">
+                                <div class="overflow-hidden">
+                                    <img src="img/sunset-5238044__340.jpg" class="card-img-top rounded-0" alt="...">
+                                </div>
+                                <div class="overlay position-absolute w-100 h-100">
+                                <a href="" class="icon" title="Order Now">
+                                    <i class=" bx bx-donate-heart text-center position-absolute text-white"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="card-body py-4 text-center text-lg-left">
+                               <h5 class="card-title">Lorem ipsum dolor sit amet test</h5>
+                                <p class="card-text">
+                                    Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero. lacinia eget et libero.
+                                </p>
+                                <a href="#" class="btn btn-success text-uppercase rounded-0 px-4 mt-4" >donate now</a>
+                            </div>
+                        </div>
+                    </div><!-- causes one end -->
+                    <!-- ******************** causes two ******************** -->
+                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+                        <div class="card ">
+                            <div class="position-relative card-img">
+                                <div class="overflow-hidden">
+                                    <img src="img/pottery-5680464__340.jpg" class="card-img-top rounded-0" alt="...">
+                                </div>
+                                <div class="overlay position-absolute w-100 h-100">
+                                <a href="" class="icon" title="Order Now">
+                                    <i class=" bx bx-donate-heart text-center position-absolute text-white"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="card-body py-4 text-center text-lg-left">
+                               <h5 class="card-title">Lorem ipsum dolor sit amet test</h5>
+                                <p class="card-text">
+                                    Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero. lacinia eget et libero.
+                                </p>
+                                <a href="#" class="btn btn-success text-uppercase rounded-0 px-4  mt-4" >donate now</a>
+                            </div>
+                        </div>
+                    </div><!-- causes two end -->
+                    <!-- ******************** causes three ******************** -->
+                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card">
+                            <div class="position-relative card-img">
+                                <div class="overflow-hidden">
+                                    <img src="img/woman-4333420__340.jpg" class="card-img-top rounded-0" alt="...">
+                                </div>
+                                <div class="overlay position-absolute w-100 h-100">
+                                <a href="" class="icon" title="Order Now">
+                                    <i class=" bx bx-donate-heart text-center position-absolute text-white"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="card-body py-4 text-center text-lg-left">
+                               <h5 class="card-title">Lorem ipsum dolor sit amet test</h5>
+                                <p class="card-text">
+                                    Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero. lacinia eget et libero.
+                                </p>
+                                <a href="#" class="btn btn-success text-uppercase rounded-0 px-4  mt-4">donate now</a>
+                            </div>
+                        </div>
+                    </div><!-- causes three end -->
+                </div>
+            </div>
+        </section>
+    <!-- causes section end -->
+
+
+    <!-- ###################################### -->
+    <!-- testimonial section start-->
+        <section class="testi py-5" id="testi">
+            <div class="container testimonial" data-aos="zoom-in">
+                <div class="testi-overlay w-100 h-100 px-3 d-flex justify-content-center align-items-center text-center">
+                    <h2 class="text-white">Lorem ipsum dolor sit amet, test link<br/>adipiscing elit.</h2>
+                </div>
+            </div>
+        </section>
+    <!-- testimonial section end-->
+
+
+    <!-- ###################################### -->
+    <!-- donation section start -->
+        <section class="donation py-5 bg-light" id="donation">
+            <div class="container">
+                <div class="section-title  m-auto text-center" data-aos="fade-up">
+                    <h2 class="h1 font-weight-bold">Our Events</h2>
+                    <p>Vestibulum pulvinar tincidunt placerat. Nulla porta porttitor sem, libero.</p>
+                </div>
+
+                <div class="row d-flex pt-3">
+                    <div class="col-lg-6 order-2 order-lg-1 donate-rw mt-4 mt-lg-0" data-aos="fade-up">
+                        <img src="img/donate.jpg" alt="" class=" w-100">
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
+                        <h2 class="py-3">Lorem ipsum dolor sit amet,<br/>  test link adipiscing elit.</h2>
+                        <p>
+                            Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero. lacinia eget et libero. Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero. lacinia eget et libero.
+                        </p>
+                        <a href="#" class="btn btn-success text-uppercase rounded-0 mt-3 px-3">find more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- donation section end -->
+
+    <!-- ###################################### -->
+    <!-- our partners section start -->
+        <section class="partners py-5 bg-white" id="partners">
+            <div class="container">
+                <div class="section-title  m-auto text-center" data-aos="fade-up">
+                    <h2 class="h1 font-weight-bold">Our Charity Partners</h2>
+                    <p>Vestibulum pulvinar tincidunt placerat. Nulla porta porttitor sem, libero.</p>
+                </div>
+
+                <div class="row pt-4">
+                    <div class="col-lg-2 col-md-4 col-sm-6 text-center" data-aos="fade-up">
+                        <a href="#" class=""><img src="img/clients/client-1.png" alt="" class="w-75"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 text-center" data-aos="fade-up" data-aos-delay="100">
+                        <a href="#" class=""><img src="img/clients/client-2.png" alt="" class="w-75"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-4 mt-md-0 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#" class=""><img src="img/clients/client-3.png" alt="" class="w-75"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="300">
+                        <a href="#" class=""><img src="img/clients/client-4.png" alt="" class="w-75"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#" class=""><img src="img/clients/client-5.png" alt="" class="w-75"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="500">
+                        <a href="#" class=""><img src="img/clients/client-6.png" alt="" class="w-75 user-select-none"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- our partners section end -->
+
+
+    <!-- ###################################### -->
+    <!-- footer section start -->
+    <section class="footer py-4 bg-light border-top border-dark" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                    <img src="img/logo/ithjoybd.png" alt="" class="d-block w-50">
+                    <p class="text-dark pt-3">
+                        Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero posuere lacinia eget et libero. lacinia eget et libero. Nulla porta porttitor sem, a ultrices magna feugiat quis. Nam ac diam ac libero.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 pl-3" data-aos="fade-up" data-aos-delay="100">
+                    <h4 class="">Pages</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Home</a></li>
+                        <li><a href="#" class="text-dark">About</a></li>
+                        <li><a href="#" class="text-dark">Causes</a></li>
+                        <li><a href="#" class="text-dark">Tweets</a></li>
+                        <li><a href="#" class="text-dark">Contact</a></li>
+                        <li><a href="#" class="text-dark">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="">Useful Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Volunteer</a></li>
+                        <li><a href="#" class="text-dark">FAQ</a></li>
+                        <li><a href="#" class="text-dark">Education</a></li>
+                        <li><a href="#" class="text-dark">Projects</a></li>
+                        <li><a href="#" class="text-dark">More Kxjs</a></li>
+                        <li><a href="#" class="text-dark">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <h4 class="">Contact Us</h4>
+                   <div class="pt-3 ">
+                       <h5 class="p-0">Office Location</h5>
+                       <span class="d-block pt-o">
+                        Singra-3, Natore-60, Rajshahi, Bangladesh
+                       </span>
+                   </div>
+                   <div class="pt-3">
+                       <h5 class="pb-0">Contact Number</h5>
+                       <a href="tel:+8801628315554" class="text-dark">+ 8801 6283 15554</a>
+                   </div>
+                   <div class="pt-3">
+                       <h5 class="pb-0">Contact Email</h5>
+                       <a href="mailto:kmdashik635@gmail.com" class="text-dark">kmdashik635@gmail.com</a>
+                       <a href="mailto:mashika989@gmail.com" class="text-dark">mashika989@gmail.com</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
+
+    
+    <!-- copyright -->
+    <section class="copyright py-2 bg-dark" id="copyright">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <p class="text-white pt-2">
+                    Copyright &copy; 2020 &mdash;All Rights Reserved ITJOYBD
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- side icon -->
+        <section class="side-icon position-fixed rounded">
+            <div class="d-flex flex-column text-center py-4 px-3">
+                <div class="align-self-auto">
+                    <a href="https://facebook.com/ashik.khan989" class=""><i class="bx bxl-facebook bx-border-circle bx-spin text-white"></i></a>
+                </div>
+                <div class="align-self-auto">
+                    <a href="https://twitter.com/MdAshik68106288" class=""><i class="bx bxl-twitter bx-border-circle bx-burst mt-3 text-white"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="side-icon-left position-fixed rounded">
+            <div class="d-flex flex-column text-center py-4 px-3">
+               <div class="align-self-auto">
+                    <a href="https://instagram.com/md_ashik_ali_khan"><i class="bx bxl-instagram bx-border-circle bx-flashing-hover text-white"></i></a>
+                </div>
+                <div class="align-self-auto  mt-3">
+                    <a href="https://ashik-ashik.github.io/boot-01/" class=""><i class="bx bx-world bx-border-circle bx-spin-hover text-white"></i></a>
+                </div>
+                
+            </div>
+        </section>
+
+        <div id="gotop" class="gotop position-fixed bg-primary rounded-circle">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="align-self-center">
+                    <i class="bx bx-up-arrow-circle"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <!-- local javaScript files add -->
+    <script src="extra/jquery/jquery.min.js"></script>
+    <script src="extra/bootstrap/js/bootstrap.min.js"></script>
+    <script src="extra/aos/aos.js"></script>
+    <script src="extra/jquery.easing/accordion"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+/*<!--For X-small device-->*/
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item .slider-overlay{
+        width: 280px;
+        height: 200px;
+        top: 25%;
+        left: 10%;
+    }
+    .carousel-inner .carousel-item .slider-overlay div h2{
+        font-size: 27px !important;
+    }
+    #partners .container .row .col-lg-2{
+        width: 45%;
+    }
+    .section-title h2{
+        font-size: 25px !important;
+    }
+    .box h2{
+        font-size: 21px !important;
+    }
+    #donation h2{
+        font-size: 26px !important;
+    }
+    
+}
+
+
+/*<!--For small device-->*/
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .carousel-inner .carousel-item .slider-overlay{
+        width: 280px;
+        height: 200px;
+        top: 15%;
+        left: 10%;
+    }
+    .carousel-inner .carousel-item .slider-overlay div h2{
+        font-size: 27px !important;
+    }
+    .side-icon, .side-icon-left{
+        background: #ffd000be ;
+      }
+      .section-title h2{
+        font-size: 38px !important;
+    }
+    #donation h2{
+        font-size: 26px !important;
+    }
+}
+
+
+/*<!--For medium device-->*/
+
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+    .carousel-inner .carousel-item .slider-overlay{
+        width: 350px;
+        height: 220px;
+        top: 10%;
+        left: 3%;
+    }
+    .carousel-inner .carousel-item .slider-overlay div h2{
+        font-size: 30px !important;
+    }
+
+    /* about us section */
+    #about-us .box{
+        transition: ease-in-out .3s;
+    }
+    #about-us .box:hover{
+        background: #1698cc !important;
+        padding-top: 28px !important;
+        padding-bottom: 68px !important;
+        color: #fff !important;
+    }
+    #about-us .box:hover a{
+        border-color: #fff !important;
+        color: #fff !important;
+    }
+}
+
+
+/*<!--For Large device-->*/
+
+@media (min-width:1200px) {
+    .card img{
+        height: 230px !important;
+    }
+    
+    /* about us section */
+    #about-us .box{
+        transition: ease-in-out .3s;
+    }
+    #about-us .box:hover{
+        background: #1698cc !important;
+        padding-top: 28px !important;
+        padding-bottom: 68px !important;
+        color: #fff !important;
+    }
+    #about-us .box:hover a{
+        border-color: #fff !important;
+        color: #fff !important;
+    }
+    
+}
+

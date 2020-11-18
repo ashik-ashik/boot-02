@@ -1,0 +1,157 @@
+
+/* common */
+a{
+    transition: .4s ease-in-out !important;
+    cursor: pointer !important;
+}
+img{
+  width: 100%;
+}
+/* topbar */
+.top-icon .bx,
+.side-icon .bx,
+.side-icon-left .bx{
+  font-size: 20px;
+  border-color: #ffffff !important;
+  transition: ease-in-out .3s;
+}
+.top-icon .bx:hover,
+.side-icon .bx:hover,
+.side-icon-left .bx:hover{
+  border-color: #000000 !important;
+  background: #ffffff;
+  color: #000 !important;
+}
+/* nav */
+.navbar-brand img{
+-webkit-filter: brightness(0);
+  filter: brightness(0);
+  height: 25px;
+}
+
+/* slider */
+.carousel-item{
+    height: 450px !important;
+}
+.carousel-inner .carousel-item .slider-overlay{
+    width: 400px;
+    height: 250px;
+    bottom: 8%;
+    left: 10%;
+}
+.carousel-item > .slider-overlay{
+    background: #00000080;
+}
+
+
+
+/* causes section */
+.card-title{
+    color: #000;
+}
+.card-img img {
+  transition: .4s; 
+}
+.card-img:hover img {
+  -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background-color: #00000075;
+  }
+  .card-img:hover .overlay {
+    opacity: 1;
+  }
+  .card-img .overlay .bx {
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: ease-in-out .4s;
+  }
+  .card-img .overlay .bx:hover {
+    color: #e5ff00 !important;
+  }
+
+  /* testimonial section */
+  #testi .container{
+    background: url(../img/testi-bg.jpg) no-repeat center center fixed;
+    height: 300px;
+    padding: 0px;
+  }
+  .testi-overlay{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease-in-out;
+    background-color: #000000b6;
+  }
+
+  /* donation section */
+.donate-rw img{
+    height: 300px !important;
+  }
+
+
+  /* partners section */
+  #partners img {
+    width: auto;
+    -webkit-filter: grayscale(100);
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+  }
+  
+  #partners img:hover {
+    -webkit-filter: none;
+    filter: none;
+    transform: scale(1.15);
+  }
+
+  /* footer section */
+  #footer img{
+    filter: brightness(0);
+  }
+
+  /* side icon */
+  .side-icon{
+    top: 60px;
+    right: 1%;
+    background: #ffd000 ;
+    display: none;
+  }
+  .side-icon-left{
+    bottom: 60px !important;
+    left: 1% !important;
+    background: #ffd000 !important;
+    display: none;
+  }
+/* go to top button */
+  .gotop{
+    bottom: 20px ;
+    right: 1%;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    display: none ;
+    animation: goto linear 1.6s infinite alternate;
+    color: #ffffff !important;
+  }
+  @keyframes goto{
+    form{
+      bottom: 20px;
+    }
+    to{
+      bottom: 30px;
+    }
+  }
