@@ -30,8 +30,8 @@ img{
 }
 
 /* slider */
-.carousel-item{
-    height: 450px !important;
+.carousel-inner{
+    height: 400px !important;
 }
 .carousel-inner .carousel-item .slider-overlay{
     width: 400px;
@@ -152,6 +152,6 @@ img{
       bottom: 20px;
     }
     to{
-      bottom: 30px;
+      bottom: 32px;
     }
   }
