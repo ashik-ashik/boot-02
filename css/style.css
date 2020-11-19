@@ -147,6 +147,12 @@ img{
     animation: goto linear 1.6s infinite alternate;
     color: #ffffff !important;
   }
+  .gotop .bx{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
   @keyframes goto{
     form{
       bottom: 20px;

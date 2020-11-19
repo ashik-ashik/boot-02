@@ -1,6 +1,8 @@
 
 $(document).ready(function() {
 
+
+  // icon show and hide
   $(window).scroll(function() {
     if($(this).scrollTop()<149){
       $('.side-icon').fadeOut('slow');
@@ -19,6 +21,7 @@ $(document).ready(function() {
     }
   });
 
+  // Scroll top
   $('.gotop').click(function(){
       $('html, body').animate({scrollTop:0}, 1500)
   })
