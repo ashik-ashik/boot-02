@@ -29,15 +29,7 @@
 /*<!--For small device-->*/
 
 @media only screen and (min-width:768px) and (max-width: 991px) {
-    .carousel-inner .carousel-item .slider-overlay{
-        width: 280px;
-        height: 200px;
-        top: 15%;
-        left: 10%;
-    }
-    .carousel-inner .carousel-item .slider-overlay div h2{
-        font-size: 27px !important;
-    }
+
     .side-icon, .side-icon-left{
         background: #ffd000be ;
       }
@@ -53,12 +45,7 @@
 /*<!--For medium device-->*/
 
 @media only screen and (min-width:992px) and (max-width: 1199px) {
-    .carousel-inner .carousel-item .slider-overlay{
-        width: 350px;
-        height: 220px;
-        top: 10%;
-        left: 3%;
-    }
+
     .carousel-inner .carousel-item .slider-overlay div h2{
         font-size: 30px !important;
     }
