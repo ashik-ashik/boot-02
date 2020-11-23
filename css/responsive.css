@@ -74,6 +74,9 @@
 /*<!--For Large device-->*/
 
 @media (min-width:1200px) {
+    .carousel{
+        height: 500px !important;
+      }
     .card img{
         height: 230px !important;
     }
