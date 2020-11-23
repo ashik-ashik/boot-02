@@ -37,6 +37,12 @@ img{
     bottom: 15%;
 }
 
+.carousel-inner{
+  height: 100%;
+}
+.carousel img{
+  height: 100%;
+}
 
 
 /* causes section */

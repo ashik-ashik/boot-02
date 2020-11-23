@@ -29,7 +29,9 @@
 /*<!--For small device-->*/
 
 @media only screen and (min-width:768px) and (max-width: 991px) {
-
+    .carousel{
+        height: 350px !important;
+      }
     .side-icon, .side-icon-left{
         background: #ffd000be ;
       }
@@ -45,7 +47,9 @@
 /*<!--For medium device-->*/
 
 @media only screen and (min-width:992px) and (max-width: 1199px) {
-
+    .carousel{
+        height: 450px !important;
+      }
     .carousel-inner .carousel-item .slider-overlay div h2{
         font-size: 30px !important;
     }
